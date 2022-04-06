@@ -9,6 +9,12 @@ let sprites = World.build(Levels.getLevel(0));
 const controller = new Controller();
 
 
+// logToUpperCase("Ciao Mondo");
+
+
+// logPlus(false, "pippo", "Pluto", "PAPERINO")
+
+
 
 
 setInterval(() => {
@@ -37,4 +43,21 @@ setInterval(() => {
 }, 30);
 
 
+// function logToUpperCase(...args){
+//   for (const arg of args) {
+//     console.log(arg.toUpperCase())
+//   }
+// }
+
+// function logPlus(isUpper,...args){
+//   if (isUpper) {
+//     for (const arg of args) {
+//       console.log(arg.toUpperCase())
+//     }
+//   } else {
+//     for (const arg of args) {
+//       console.log(arg.toLowerCase())
+//     }
+//   }
+// }
 
